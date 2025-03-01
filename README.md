@@ -1,15 +1,44 @@
-Game of life – Kobi Abu
+# Game of Life – Kobi Abu
 
-The game consists of 2 scenes main menu and the game itself (GameOfLife).
-Main menu :
-In this screen we have 4 drop down elements for customization of the game:
-1.tile color – user can choose the tile color from pre-determined options 
-2. background color -user can choose the tile color from pre-determined options.
-3.percentage grid- in this option the user can choose what percentage of the grid (in average) will be alive. (I implemented it using random from 0 to 1 ).
-4.grid size- user can choose grid sizes in the range of 10x10 to 100x100.  
-And also the main menu has a play button to start the game.
-Game Screen :
-In the game screen we have the main camera in which we can see the game running, also we have bar on the bottom in which we have the count of how many intervals the game had been through and the count of living cells in any point at time.
-The bar also have "+" and  "-" sign that controls the game speed (also achievable using  up and down arrows).
-If the user wants to move inside the screen he can use click and drag.
-The user can also zoom in and out using the mouse's wheel. 
+## Description
+This is an implementation of Conway's Game of Life in Unity. The game consists of two scenes: the Main Menu and the Game Screen.
+
+## Main Menu
+The main menu allows users to customize the game using the following options:
+
+1. **Tile Color** – Choose a tile color from pre-determined options.
+2. **Background Color** – Choose a background color from pre-determined options.
+3. **Grid Population Percentage** – Set the initial percentage of living cells in the grid (implemented using a random value between 0 and 1).
+4. **Grid Size** – Choose a grid size between **10x10** and **100x100**.
+
+Additionally, the main menu features a **Play** button to start the game.
+
+## Game Screen
+The game screen consists of:
+- The **main camera**, displaying the Game of Life simulation.
+- A **bottom bar** showing:
+  - The number of intervals (generations) that have passed.
+  - The current count of living cells.
+  - Controls for adjusting the game speed:
+    - " + " and " - " buttons (or using the Up/Down arrow keys).
+- **Click and drag** to move the view within the grid.
+- **Mouse wheel zoom** to zoom in and out.
+
+## Controls
+- **Click & Drag** – Move the grid.
+- **Mouse Wheel** – Zoom in and out.
+- **Up/Down Arrows** – Increase/decrease game speed.
+- **"+" / "-" Buttons** – Adjust game speed.
+
+## How to Play
+1. Customize the game settings in the main menu.
+2. Click "Play" to start the simulation.
+3. Observe how the grid evolves based on Conway's Game of Life rules.
+4. Adjust speed, zoom, and move around the grid as needed.
+
+## License
+[Specify your license here, e.g., MIT License]
+
+## Author
+**Kobi Abu**
+
