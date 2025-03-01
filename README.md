@@ -2,6 +2,7 @@
 
 ## Description
 This is an implementation of Conway's Game of Life in Unity. The game consists of two scenes: the Main Menu and the Game Screen.
+Upon cloning the repository and starting the game in unity editor you will may need to choose the main menu scene first
 
 ## Main Menu
 The main menu allows users to customize the game using the following options:
