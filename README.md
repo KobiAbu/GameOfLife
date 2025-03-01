@@ -36,9 +36,6 @@ The game screen consists of:
 3. Observe how the grid evolves based on Conway's Game of Life rules.
 4. Adjust speed, zoom, and move around the grid as needed.
 
-## License
-[Specify your license here, e.g., MIT License]
-
 ## Author
 **Kobi Abu**
 
